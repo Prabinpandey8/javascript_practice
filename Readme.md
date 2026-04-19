@@ -1,7 +1,7 @@
 ```
 📅 Schedule for practice 
 
-Day 1 → Rest operator
-Day-2 → Destructuring
-
+1 → Rest operator
+2 → Destructuring
+3 → Spread operator
 ```

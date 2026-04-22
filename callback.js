@@ -48,3 +48,36 @@ function display(result) {
   console.log(result);
 }
 checkEven(10, display);
+
+
+const add = (a, b, callback) => {
+  const result = a + b;
+  callback(result);
+};
+add(5, 3, (result) => {
+  console.log(result);
+});
+
+
+const getData = (data) => {
+  setTimeout(()=>{
+    console.log(data)
+  },3000)
+}
+getData(2);
+
+
+const getData =(data1 ,data2) =>{
+  setTimeout(()=>{
+    console.log(data1);
+    if(data2){
+     data2();
+    }
+    
+  },2000)
+}
+getData(2,()=>{
+  getData(3),()=>{
+    getData(4)
+  }
+});

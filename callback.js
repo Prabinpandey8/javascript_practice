@@ -49,7 +49,7 @@ function display(result) {
 }
 checkEven(10, display);
 
-
+///Q-no-6
 const add = (a, b, callback) => {
   const result = a + b;
   callback(result);
@@ -58,7 +58,7 @@ add(5, 3, (result) => {
   console.log(result);
 });
 
-
+//Q-no-7
 const getData = (data) => {
   setTimeout(()=>{
     console.log(data)
@@ -66,7 +66,7 @@ const getData = (data) => {
 }
 getData(2);
 
-
+//Q-no-8
 const getData =(data1 ,data2) =>{
   setTimeout(()=>{
     console.log(data1);

@@ -6,4 +6,5 @@
 3 → Spread operator
 4 → Arrow 
 5 → Callback
+6 → Promises
 ```
